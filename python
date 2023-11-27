@@ -1,0 +1,65 @@
+ Python data types:
+
+Integers (int): Whole numbers without a fractional component, like 5.
+
+Floats (float): Numbers with a decimal point or in scientific notation, like 3.14.
+
+Strings (str): Ordered sequences of characters enclosed in single or double quotes, like "John".
+
+Booleans (bool): Represents either True or False, like True`.
+
+Lists (list): Ordered and mutable sequences of elements, like [1, 2, 3, "four"].
+
+Tuples (tuple): Ordered and immutable sequences of elements, like (1, 2, 3, "four").
+
+Sets (set): Unordered collections of unique elements, like {1, 2, 3}.
+
+Dictionaries (dict): Unordered collections of key-value pairs, like {"name": "Alice", "age": 30}.
+
+These data types allow you to represent and manipulate different kinds of information in Python programs.
+
+
+
+In Python, data types represent the type of value that a variable can hold. Here are some common Python data types:
+
+Integers (int): Whole numbers without a fractional component.
+
+python
+ 
+x = 5
+Floats (float): Numbers with a decimal point or in scientific notation.
+
+python
+ 
+y = 3.14
+Strings (str): Ordered sequences of characters enclosed in single or double quotes.
+
+python
+ 
+name = "John"
+Booleans (bool): Represents either True or False.
+
+python
+ 
+is_true = True
+Lists (list): Ordered and mutable sequences of elements.
+
+python
+ 
+my_list = [1, 2, 3, "four"]
+Tuples (tuple): Ordered and immutable sequences of elements.
+
+python
+ 
+my_tuple = (1, 2, 3, "four")
+Sets (set): Unordered collections of unique elements.
+
+python
+ 
+my_set = {1, 2, 3}
+Dictionaries (dict): Unordered collections of key-value pairs.
+
+python
+ 
+my_dict = {"name": "Alice", "age": 30}
+These are the basic data types in Python. Understanding them is fundamental for programming in Python and manipulating data in your programs.
