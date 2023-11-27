@@ -1,0 +1,93 @@
+In Python, operators are symbols or special keywords used to perform operations on variables and values. Here are some common types of operators in Python:
+
+Arithmetic Operators:
+
+python
+ 
+x = 5
+y = 2
+
+addition = x + y       # 7
+subtraction = x - y    # 3
+multiplication = x * y  # 10
+division = x / y        # 2.5
+modulus = x % y         # 1 (remainder of the division)
+exponentiation = x ** y  # 25 (x to the power of y)
+Comparison Operators:
+
+python
+ 
+a = 5
+b = 10
+
+equal = a == b        # False
+not_equal = a != b    # True
+greater_than = a > b  # False
+less_than = a < b     # True
+greater_or_equal = a >= b  # False
+less_or_equal = a <= b     # True
+Logical Operators:
+
+python
+Copy code
+p = True
+q = False
+
+logical_and = p and q  # False
+logical_or = p or q    # True
+logical_not = not p     # False
+Assignment Operators:
+
+python
+ 
+x = 5
+
+x += 3   # Equivalent to x = x + 3
+x -= 2   # Equivalent to x = x - 2
+x *= 4   # Equivalent to x = x * 4
+x /= 2   # Equivalent to x = x / 2
+Identity Operators:
+
+python
+ 
+a = [1, 2, 3]
+b = [1, 2, 3]
+
+identity_equal = a is b          # False (checks if the objects have the same identity)
+identity_not_equal = a is not b  # True
+Membership Operators:
+
+ 
+my_list = [1, 2, 3]
+
+in_list = 2 in my_list       # True
+not_in_list = 4 not in my_list  # True
+These are just a few examples of the many operators available in Python. Operators are fundamental for performing various operations in your programs. If you have specific questions about a particular type of operator or if you'd like to see more examples, feel free to ask!
+
+User
+sample program
+ 
+Certainly! Here's a simple Python program that takes two numbers as input and performs arithmetic operations on them:
+
+python
+ 
+# Get user input for two numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Perform arithmetic operations
+sum_result = num1 + num2
+difference_result = num1 - num2
+product_result = num1 * num2
+quotient_result = num1 / num2
+
+# Display the results
+print(f"Sum: {sum_result}")
+print(f"Difference: {difference_result}")
+print(f"Product: {product_result}")
+print(f"Quotient: {quotient_result}")
+In this program:
+
+The input() function is used to get user input for two numbers, and float() is used to convert the input to floating-point numbers.
+Arithmetic operations (addition, subtraction, multiplication, and division) are performed on the input numbers.
+The results are then displayed using print().
