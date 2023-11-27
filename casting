@@ -1,0 +1,79 @@
+ n Python, casting refers to the process of converting a variable from one data type to another. Python provides several built-in functions for casting, allowing you to convert variables between different types. Here are some commonly used casting functions:
+
+int(): Converts a number or a string containing a whole number to an integer.
+
+python
+ 
+x = int(3.14)  # Converts the float 3.14 to the integer 3
+y = int("5")   # Converts the string "5" to the integer 5
+float(): Converts a number or a string containing a number to a floating-point number.
+
+python
+
+a = float(5)    # Converts the integer 5 to the float 5.0
+b = float("2.5")  # Converts the string "2.5" to the float 2.5
+str(): Converts a variable to a string.
+
+python
+ 
+s = str(42)  # Converts the integer 42 to the string "42"
+bool(): Converts a variable to a Boolean value.
+
+python
+ 
+bool_var = bool(0)  # Converts the integer 0 to False
+Here's a brief example demonstrating casting:
+
+python
+ 
+# Casting examples
+float_number = 3.14
+int_number = int(float_number)  # Casting float to int
+
+str_number = "123"
+int_from_str = int(str_number)  # Casting string to int
+
+bool_value = bool(42)  # Casting integer to bool
+
+# Displaying results
+print("Original float:", float_number)
+print("Casted to int:", int_number)
+
+print("Original string:", str_number)
+print("Casted to int from string:", int_from_str)
+
+print("Original integer for boolean casting:", 42)
+print("Casted to bool:", bool_value)
+In this example, various casting functions are used to convert between different data types, and the results are printed to the console.
+
+User
+with sample program
+ChatGPT
+Certainly! Here's a sample Python program that demonstrates casting with different data types:
+
+python
+ 
+# Casting examples
+float_number = 3.14
+int_number = int(float_number)  # Casting float to int
+
+str_number = "123"
+int_from_str = int(str_number)  # Casting string to int
+
+bool_value = bool(42)  # Casting integer to bool
+
+# Displaying results
+print("Original float:", float_number)
+print("Casted to int:", int_number)
+
+print("Original string:", str_number)
+print("Casted to int from string:", int_from_str)
+
+print("Original integer for boolean casting:", 42)
+print("Casted to bool:", bool_value)
+In this program:
+
+int(float_number) casts the floating-point number 3.14 to an integer, resulting in 3.
+int(str_number) casts the string "123" to an integer, resulting in 123.
+bool(42) casts the integer 42 to a boolean, resulting in True.
+The results are then printed to the console. This demonstrates how casting functions can be used to convert variables from one data type to another in Python.
