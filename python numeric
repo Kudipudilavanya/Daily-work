@@ -1,0 +1,70 @@
+In Python, numbers can be represented using different data types. The two main types for representing numbers are integers (int)
+and floating-point numbers (float). Here's a brief overview:
+
+Integers (int): Whole numbers without a fractional component.
+
+python
+ 
+x = 5
+Floating-Point Numbers (float): Numbers with a decimal point or in scientific notation.
+
+python
+ 
+y = 3.14
+Python also provides some additional functionality for working with numbers:
+
+Complex Numbers (complex): Numbers with a real and an imaginary part.
+
+python
+Copy code
+z = 2 + 3j
+Math Operations: Python supports standard mathematical operations such as addition (+), subtraction (-), multiplication (*), and division (/) for both integers and floating-point numbers.
+
+Example:
+
+python
+ 
+a = 10
+b = 3
+result_addition = a + b
+result_multiplication = a * b
+These are the basic concepts related to numbers in Python. Depending on your specific needs, you might also explore additional modules like math for more advanced mathematical operations.
+
+User
+with sample program
+ChatGPT
+Certainly! Here's a sample Python program that demonstrates the use of different number types and basic mathematical operations:
+
+python
+ 
+# Integers
+x = 5
+y = 3
+
+# Floating-Point Numbers
+a = 2.5
+b = 1.5
+
+# Complex Numbers
+z = 2 + 3j
+w = 1 - 2j
+
+# Math Operations
+sum_integers = x + y
+product_floats = a * b
+difference_complex = z - w
+
+# Displaying Results
+print("Sum of integers:", sum_integers)
+print("Product of floats:", product_floats)
+print("Difference of complex numbers:", difference_complex)
+
+# Additional Operations
+division_result = x / y  # Division with float result
+exponent_result = a ** 2  # Exponentiation
+
+# Displaying Additional Results
+print("Division result:", division_result)
+print("Exponent result:", exponent_result)
+In this program, we define variables of different number types (integers, floats, and complex numbers) and perform various
+mathematical operations on them, such as addition, multiplication, subtraction, division, and exponentiation. The results are then printed to the console.
