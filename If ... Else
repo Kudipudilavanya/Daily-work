@@ -1,0 +1,48 @@
+In Python, the if...else statement is used for decision-making in your code. It allows you to execute a block of code if a certain condition is true and another block of code if the condition is false. Here's the basic structure of an if...else statement:
+
+python
+Copy code
+if condition:
+    # Code to be executed if the condition is True
+else:
+    # Code to be executed if the condition is False
+Here's a simple example that checks if a number is even or odd:
+
+python
+Copy code
+# Get user input for a number
+number = int(input("Enter a number: "))
+
+# Check if the number is even or odd
+if number % 2 == 0:
+    print(f"{number} is an even number.")
+else:
+    print(f"{number} is an odd number.")
+In this example:
+
+The input() function is used to get user input for a number, and int() is used to convert the input to an integer.
+The if statement checks if the number is even by using the modulo operator % (which gives the remainder when dividing by 2). If the remainder is 0, the number is even; otherwise, it's odd.
+Depending on the result of the condition, the program executes the corresponding block of code inside either the if or else block.
+Feel free to run this program and test it with different numbers. If you have any specific questions about if...else statements or if you'd like to see more examples, let me know!
+
+User
+sample program
+ChatGPT
+Certainly! Here's a sample program that checks if a student's exam score qualifies them for a passing grade:
+
+python
+Copy code
+# Get user input for the exam score
+exam_score = float(input("Enter the exam score: "))
+
+# Check if the student passed or failed
+passing_score = 60.0
+if exam_score >= passing_score:
+    print(f"Congratulations! You passed with a score of {exam_score}.")
+else:
+    print(f"Sorry, you failed with a score of {exam_score}. Please try again.")
+In this program:
+
+The input() function is used to get user input for the exam score, and float() is used to convert the input to a floating-point number.
+The if statement checks if the exam score is greater than or equal to the passing score. If it is, the student passed; otherwise, they failed.
+Depending on the result of the condition, the program executes the corresponding block of code inside either the if or else block.
