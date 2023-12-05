@@ -1,0 +1,32 @@
+ Python program that uses functions to perform basic operations on a list of numbers. The program defines functions for finding the average, sum, maximum, and minimum of a list of numbers:
+ def calculate_average(numbers):
+    if not numbers:
+        return None
+    return sum(numbers) / len(numbers)
+
+def calculate_sum(numbers):
+    return sum(numbers)
+
+def find_maximum(numbers):
+    if not numbers:
+        return None
+    return max(numbers)
+
+def find_minimum(numbers):
+    if not numbers:
+        return None
+    return min(numbers)
+
+# Example usage:
+numbers_list = [10, 5, 8, 20, 15]
+
+average_result = calculate_average(numbers_list)
+sum_result = calculate_sum(numbers_list)
+max_result = find_maximum(numbers_list)
+min_result = find_minimum(numbers_list)
+
+print(f"Numbers: {numbers_list}")
+print(f"Average: {average_result}")
+print(f"Sum: {sum_result}")
+print(f"Maximum: {max_result}")
+print(f"Minimum: {min_result}")
