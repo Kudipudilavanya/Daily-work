@@ -1,0 +1,62 @@
+def operator_demo():
+    # Arithmetic operators
+    num1 = 10
+    num2 = 5
+
+    addition = num1 + num2
+    subtraction = num1 - num2
+    multiplication = num1 * num2
+    division = num1 / num2
+    modulus = num1 % num2
+    exponentiation = num1 ** num2
+
+    print(f"Arithmetic Operators:\n"
+          f"Addition: {addition}\n"
+          f"Subtraction: {subtraction}\n"
+          f"Multiplication: {multiplication}\n"
+          f"Division: {division}\n"
+          f"Modulus: {modulus}\n"
+          f"Exponentiation: {exponentiation}\n")
+
+    # Comparison operators
+    result_equal = num1 == num2
+    result_not_equal = num1 != num2
+    result_greater = num1 > num2
+    result_less = num1 < num2
+    result_greater_equal = num1 >= num2
+    result_less_equal = num1 <= num2
+
+    print(f"Comparison Operators:\n"
+          f"Equal: {result_equal}\n"
+          f"Not Equal: {result_not_equal}\n"
+          f"Greater Than: {result_greater}\n"
+          f"Less Than: {result_less}\n"
+          f"Greater Than or Equal: {result_greater_equal}\n"
+          f"Less Than or Equal: {result_less_equal}\n")
+
+    # Logical operators
+    bool1 = True
+    bool2 = False
+
+    result_and = bool1 and bool2
+    result_or = bool1 or bool2
+    result_not = not bool1
+
+    print(f"Logical Operators:\n"
+          f"AND: {result_and}\n"
+          f"OR: {result_or}\n"
+          f"NOT: {result_not}\n")
+
+    # Assignment operators
+    x = 5
+    x += 3
+    y = 10
+    y *= 2
+
+    print(f"Assignment Operators:\n"
+          f"x after +=: {x}\n"
+          f"y after *=: {y}\n")
+
+
+# Call the function to see the operators in action
+operator_demo()
