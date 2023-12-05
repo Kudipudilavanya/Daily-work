@@ -1,0 +1,91 @@
+In Python, you can perform various operations on files using built-in functions. Here's a basic overview:
+
+Opening a File:
+To open a file, you can use the open() function. Specify the file name and the mode (read, write, append, etc.).
+
+python
+Copy code
+file = open("filename.txt", "r")  # Open for reading
+Reading from a File: 
+You can use the read() or readline() method to read content from a file.
+
+python
+Copy code
+content = file.read()  # Read the entire file
+Writing to a File:
+If you want to write to a file, open it in write mode ("w").
+
+python
+Copy code
+with open("filename.txt", "w") as file:
+    file.write("Hello, this is a sample text.")
+Appending to a File:
+To append content to an existing file, open it in append mode ("a").
+
+python
+Copy code
+with open("filename.txt", "a") as file:
+    file.write("\nThis text will be appended.")
+Closing a File:
+It's good practice to close the file when you're done with it.
+
+python
+Copy code
+file.close()
+Using with Statement:
+The with statement is used to ensure that the file is properly closed.
+
+python
+Copy code
+with open("filename.txt", "r")
+as file:
+    content = file.read()
+    # Do something with the content
+# File is automatically closed when the block is exited
+Remember to handle exceptions, especially when working with file operations, to manage potential errors.
+
+simple Python program that demonstrates basic file operations. This program reads from an existing file, modifies its content, and then appends new content to it:
+
+python
+ 
+# File name
+filename = "sample_file.txt"
+
+# Reading from the file
+try:
+    with open(filename, "r") as file:
+        content = file.read()
+        print("Original Content:")
+        print(content)
+except FileNotFoundError:
+    print(f"The file '{filename}' does not exist.")
+
+# Modifying content
+modified_content = content.replace("old", "new")
+
+# Writing the modified content back to the file
+with open(filename, "w") as file:
+    file.write(modified_content)
+    print("\nModified Content:")
+    print(modified_content)
+
+# Appending new content to the file
+new_content = "\nThis is new content added to the file."
+with open(filename, "a") as file:
+    file.write(new_content)
+    print("\nAppended Content:")
+    print(new_content)
+
+# Reading the final content from the file
+with open(filename, "r") as file:
+    final_content = file.read()
+    print("\nFinal Content:")
+    print(final_content)
+This program assumes there is a file named "sample_file.txt" with some initial content containing the word "old". It reads the content, replaces "old" with "new", writes the modified content back to the file, appends new content, and then reads and prints the final content.
+
+Make sure to replace "sample_file.txt" with the actual file name you want to work with.
+
+
+
+
+
