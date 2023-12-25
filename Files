@@ -4,26 +4,26 @@ Opening a File:
 To open a file, you can use the open() function. Specify the file name and the mode (read, write, append, etc.).
 
 python
-Copy code
+ 
 file = open("filename.txt", "r")  # Open for reading
 Reading from a File: 
 You can use the read() or readline() method to read content from a file.
 
 python
-Copy code
+ 
 content = file.read()  # Read the entire file
 Writing to a File:
 If you want to write to a file, open it in write mode ("w").
 
 python
-Copy code
+ 
 with open("filename.txt", "w") as file:
     file.write("Hello, this is a sample text.")
 Appending to a File:
 To append content to an existing file, open it in append mode ("a").
 
 python
-Copy code
+ 
 with open("filename.txt", "a") as file:
     file.write("\nThis text will be appended.")
 Closing a File:
