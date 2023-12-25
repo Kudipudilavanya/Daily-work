@@ -1,8 +1,6 @@
  In Python, a string is a sequence of characters, and it is one of the basic data types. You can create strings by enclosing characters in single (' '), double (" "), or triple (''' or """) quotes. Here are some basic operations and concepts related to Python strings:
 
 Creating Strings:
-
-python
  
 single_quoted = 'Hello, World!'
 double_quoted = "Python Programming"
