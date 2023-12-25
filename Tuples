@@ -1,9 +1,7 @@
 In Python, a tuple is a collection data type that is similar to a list. However, unlike lists, tuples are immutable, meaning their elements cannot be changed after the tuple is created. Tuples are defined by enclosing elements in parentheses () and separating them with commas. Here are some basic concepts related to Python tuples:
 
 Creating Tuples:
-
-python
-Copy code
+ 
 my_tuple = (1, 2, 3)
 mixed_tuple = (1, "hello", 3.14, True)
 single_element_tuple = (42,)  # Note the trailing comma for a single-element tuple
