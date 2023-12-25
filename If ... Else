@@ -1,7 +1,7 @@
 In Python, the if...else statement is used for decision-making in your code. It allows you to execute a block of code if a certain condition is true and another block of code if the condition is false. Here's the basic structure of an if...else statement:
 
 python
-Copy code
+ 
 if condition:
     # Code to be executed if the condition is True
 else:
