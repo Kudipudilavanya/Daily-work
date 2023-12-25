@@ -58,7 +58,6 @@ if age >= 18:
 else:
     years_to_wait = 18 - age
     print(f"Sorry, you are not eligible to vote yet. You need to wait {years_to_wait} years.")
-In this program:
 
 The input() function is used to get the user's age as input.
 The int() function is used to convert the input to an integer.
