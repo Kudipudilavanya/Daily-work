@@ -1,9 +1,7 @@
 In Python, a list is a versatile and mutable data type that allows you to store a collection of items. Lists are defined by enclosing the items in square brackets [] and separating them with commas. Here are some basic concepts related to Python lists:
 
 Creating Lists:
-
-python
- 
+  
 my_list = [1, 2, 3, 4, 5]
 mixed_list = [1, "hello", 3.14, True]
 empty_list = []
