@@ -6,7 +6,7 @@ for variable in iterable:
     # Code to be executed in each iteration
 Here's a simple example of a for loop that iterates over a list of numbers and prints each number:
 
-python
+ python
  
 numbers = [1, 2, 3, 4, 5]
 
