@@ -30,7 +30,7 @@ class BankAccount:
         for transaction in self.transaction_history:
             print(transaction)
 
-# Example usage:
+# Example:
 if __name__ == "__main__":
     # Create two bank accounts
     account1 = BankAccount(account_number=101, account_holder='Alice')
