@@ -1,8 +1,7 @@
 In Python, a while loop is used to repeatedly execute a block of code as long as a certain condition is true. The structure of a while loop looks like this:
 
 python
- 
-while condition:
+ while condition:
     # Code to be executed as long as the condition is True
 Here's a simple example of a while loop that counts down from 5 to 1:
 
