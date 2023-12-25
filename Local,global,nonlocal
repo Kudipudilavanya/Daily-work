@@ -11,7 +11,7 @@ Based on the scope, we can classify Python variables into three types:
 
 Local Variables
 Global Variables
-Nonlocal Variables
+Nonlocal Variables 
 Python Local Variables
 When we declare variables inside a function, these variables will have a local scope (within the function). We cannot access them outside the function.
 
