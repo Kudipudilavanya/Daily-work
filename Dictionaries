@@ -102,7 +102,7 @@ person_info.clear()
 # Displaying the empty dictionary
 print("\nEmpty Person Information:")
 print(person_info)
-In this program:
+ 
 
 A dictionary person_info is created to store information about a person.
 The program displays the original dictionary using a for loop.
