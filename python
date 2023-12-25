@@ -24,7 +24,6 @@ In Python, data types represent the type of value that a variable can hold. Here
 
 Integers (int): Whole numbers without a fractional component.
 
-python
  
 x = 5
 Floats (float): Numbers with a decimal point or in scientific notation.
